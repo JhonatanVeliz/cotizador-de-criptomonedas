@@ -56,7 +56,7 @@ const Consulta = ({ respuestaApi, tipoMoneda }) => {
           <ParagraphInfo>Precio más bajo del día: <Span>{LOWDAY}</Span></ParagraphInfo>
           <ParagraphInfo>Variacion ultimas horas: <Span>{CHANGEPCT24HOUR}</Span></ParagraphInfo>
           <ParagraphInfo>Última actualización: 
-            <Span>{LASTUPDATE == 'Just now' ? ' Justo Ahora' : ''}</Span>
+            <Span>{LASTUPDATE == 'Just now' ? ' Justo Ahora' : LASTUPDATE}</Span>
           </ParagraphInfo>
         </div>
 

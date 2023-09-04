@@ -9,6 +9,7 @@ const FormLabel = styled.label`
 
 const FormSelect = styled.select`
     padding: 1.5rem;
+    border: none;
     border-radius: 0.5rem;
     background-color: #5175f8;
     cursor: pointer;

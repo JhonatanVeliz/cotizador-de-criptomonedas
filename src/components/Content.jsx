@@ -17,7 +17,8 @@ const Span = styled.span`
   padding-bottom: 1.8rem;
   border-bottom: 1rem solid #b01111;
   display: block;
-  margin-bottom: 5rem;
+  width: 20rem;
+  margin: 0 auto 5rem auto;
 `;
 
 const Content = ({ respuestaApi, setConsultaMoneda, tipoMoneda, spinner }) => {
